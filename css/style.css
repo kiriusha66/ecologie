@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+ body{
+    background-color: rgb(209, 157, 157);
+    font-family: "Jost", sans-serif;
+    margin: opx 25%;
+    font-size: 145%;
+  }
+  p{
+    color: rgb(4, 46, 6);
+  }
+  div{
+    border:5px solid rgb(1, 75, 1);
+    border-radius: 15px;
+    padding: 3%;
+    background-color: rgba(111, 152, 247, 0.375);
+  }
+
+  @media (max-width:600px){
+    body{
+        background-color: rgb(177, 115, 234);
+        font-size: 140%;
+    }
+    div{
+        padding: 3%;
+    }
+  }
